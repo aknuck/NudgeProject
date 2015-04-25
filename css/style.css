@@ -58,23 +58,40 @@ footer.page-footer {
 }
 
 .tabs .tab a {
-    color: #009688;
+    color: #FFC107;
 }
 
 .tabs .tab a:hover {
-    color: #80cbc4;
+    color: #ffd54f;
 }
 
 .tabs .indicator {
-    background-color: #009688;
+    background-color: #FFC107;
 }
 
-/*
-.collection .collection-item {
-    background-color: #eceff1;
+a {
+    color: #009688;
 }
-*/
 
+nav {
+    height: 80px;
+    border-top: 15px solid #00796b ;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.secondary-content {
+    color: #FFC107;
+}
+#nav-mobile {
+    padding-top: 25px;
+}
 .button-collapse {
     color: #FFF;
+}
+
+.group-img {
+    margin: 2em 1em;   
 }
