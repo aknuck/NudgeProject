@@ -24,6 +24,7 @@
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
+                        <li><a href="index.html"><i class="mdi-action-home left"></i>Home Feed</a></li>
                         <li><a href="create-nudge.html"><i class="mdi-content-add-circle left"></i>Create Nudge</a></li>
                         <li><a href="sent.html"><i class="mdi-communication-call-made left"></i>Sent</a></li>
                         <li><a href="received.html"><i class="mdi-communication-call-received left"></i>Received</a></li>
@@ -61,36 +62,37 @@
                         <div class="row">
                             <div class="col s12">
                                <div class="col s6">
-                                <p><b><big>Nudge Priority</big></b></p>
-                                <p>
-                                    <input class="with-gap" name="group1" type="radio" id="radio-reminder" />
-                                    <label for="radio-reminder" class="green-text">Reminder</label>
-                                </p>
-                                <p>
-                                    <input class="with-gap" name="group1" type="radio" id="radio-important" />
-                                    <label for="radio-important" class="amber-text">Important</label>
-                                </p>
-                                <p>
-                                    <input class="with-gap" name="group1" type="radio" id="radio-urgent"  />
-                                    <label for="radio-urgent" class="red-text">Urgent</label>
-                                </p>
+                                    <label>Nudge priority</label>
+                                    <p>
+                                        <input class="with-gap" name="group1" type="radio" id="radio-reminder" />
+                                        <label for="radio-reminder" class="green-text">Reminder</label>
+                                    </p>
+                                    <p>
+                                        <input class="with-gap" name="group1" type="radio" id="radio-important" />
+                                        <label for="radio-important" class="amber-text">Important</label>
+                                    </p>
+                                    <p>
+                                        <input class="with-gap" name="group1" type="radio" id="radio-urgent"  />
+                                        <label for="radio-urgent" class="red-text">Urgent</label>
+                                    </p>
+
                                 </div>
 
                                <div class="col s6">
-                                <p><b><big>Interval</big></b></p>
+                                <label>Interval Selection</label>
                                 <p>
-                                    <input class="with-gap" name="group1" type="radio" id="radio-once" />
+                                    <input class="with-gap" name="group2" type="radio" id="radio-once" />
                                     <label for="radio-once">Once</label>
                                 </p>
                                 <p>
-                                    <input class="with-gap" name="group1" type="radio" id="radio-interval" />
+                                    <input class="with-gap" name="group2" type="radio" id="radio-interval" />
                                     <label for="radio-interval">Interval</label>
                                 </p>
                                 </div>
                                 
                             </div>
                         </div>
-                        
+                        <br>
                         <label>Browser Select</label>
                         <select class="browser-default">
                             <option value="" disabled selected>Select Interval</option>
@@ -106,7 +108,7 @@
                     </form>
                 </div>
                 
-                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <button class="btn-large waves-effect waves-light" type="submit" name="action">Submit
                     <i class="mdi-content-send right"></i>
                 </button>
                 
@@ -115,24 +117,24 @@
 
         <footer class="page-footer teal">
             <div class="container">
-                <div class="">
+                
                     <h5 class="white-text"><b>Nudge Preview</b></h5>
 
                     <ul class="collection z-depth-1">
                         <li class="collection-item avatar">
-                            <img src="http://www.stylevitae.com/wp-content/uploads/2014/05/beyonce_smile_face_lips_hair_5905_1024x1024.jpg" alt="" class="circle">
-                            <span class="title">Beyonce</span>
+                            <img src="https://randomuser.me/api/portraits/med/women/49.jpg" alt="" class="circle">
+                            <span class="title">Chloe</span>
                             <p>First Line <br>
-                                Tootsie roll tart jelly caramels jelly beans candy caramels powder icing.
+                                Hey! It's been 6 months since you last visited me. You should schedule an appointment soon for a cleaning.
                             </p>
                             <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
                         </li>
                     </ul>
 
-                </div>
+                
                 <br>
-
-                </footer>
+            </div>
+        </footer>
 
 
             <!--  Scripts-->
